@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zebo's Crab Shack | Jacksonville Garlic Crabs • W Beaver St</title>
+<meta name="description" content="Jacksonville garlic crabs, Gullah Geechee style. Crab trays, blue crab boils, fried shrimp and fish baskets on W Beaver St. Call (904) 518-5935.">
+<meta name="theme-color" content="#0b2545">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/garlic-crab.jpg">
+<style>
+:root{--old:#d9480f;--gold:#f2b705;--navy:#0b2545;--navy2:#13315c;--paper:#f4efe3;--ink:#16130f;--slate:#1f2a2a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);line-height:1.5;padding-bottom:76px;
+  background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6'%3E%3Ccircle cx='1' cy='1' r='.7' fill='%2316130f' fill-opacity='.07'/%3E%3C/svg%3E")}
+.cond{font-family:"Anton",Impact,"Arial Narrow Bold","Oswald","Franklin Gothic Bold","Arial Black",sans-serif;text-transform:uppercase;letter-spacing:.5px}
+header{position:sticky;top:0;z-index:100;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:.6rem 1.1rem;border-bottom:4px solid var(--old)}
+.logo{display:flex;align-items:center;gap:.55rem;color:#fff;text-decoration:none}
+.logo b{font-family:"Anton",Impact,"Arial Black",sans-serif;font-size:1.35rem;letter-spacing:1px;text-transform:uppercase;font-weight:400}
+.logo b span{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin-left:1.1rem;font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:1px}nav a:hover{color:var(--gold)}
+.hero{position:relative;min-height:86vh;display:flex;align-items:flex-end;color:#fff;background:#0b2545 url(images/garlic-crab.jpg) center 55%/cover no-repeat;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,37,69,.1) 25%,rgba(11,37,69,.94) 90%)}
+.hero-in{position:relative;padding:2rem 1.25rem 2.3rem;width:100%;max-width:1100px;margin:0 auto}
+.stamp{display:inline-block;border:3px solid var(--gold);color:var(--gold);padding:.3rem .7rem;font-weight:900;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;transform:rotate(-3deg);margin-bottom:1rem;background:rgba(11,37,69,.55)}
+.hero h1{font-family:"Anton",Impact,"Arial Narrow Bold","Arial Black",sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(3rem,15vw,6.4rem);line-height:.9;letter-spacing:.5px;text-shadow:0 4px 0 rgba(0,0,0,.25)}
+.hero h1 .o{color:var(--old);-webkit-text-stroke:1px rgba(0,0,0,.15)}
+.hero h1 .g{color:var(--gold)}
+.hero p{font-size:1.08rem;margin:.9rem 0 1.2rem;max-width:32rem}
+.btns{display:flex;gap:.6rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.85rem 1.3rem;border-radius:6px;font-weight:900;text-decoration:none;text-transform:uppercase;letter-spacing:1px;font-size:.9rem}
+.btn.or{background:var(--old);color:#fff;box-shadow:4px 4px 0 var(--gold)}
+.btn.gh{border:2px solid #fff;color:#fff}
+.btn.nv{background:var(--navy);color:#fff;box-shadow:4px 4px 0 var(--old)}
+.ticker{background:var(--gold);color:var(--navy);overflow:hidden;white-space:nowrap;border-top:3px solid var(--navy);border-bottom:3px solid var(--navy)}
+.ticker div{display:inline-block;padding:.55rem 0;font-family:"Anton",Impact,"Arial Black",sans-serif;text-transform:uppercase;letter-spacing:1.5px;font-size:1rem;animation:tk 28s linear infinite}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker div{animation:none}}
+section{padding:3.3rem 1.25rem;max-width:1100px;margin:0 auto}
+h2{font-family:"Anton",Impact,"Arial Narrow Bold","Arial Black",sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(2rem,8vw,3rem);line-height:1;color:var(--navy);letter-spacing:.5px}
+h2 .o{color:var(--old)}
+.kick{font-weight:900;color:var(--old);text-transform:uppercase;letter-spacing:2px;font-size:.75rem;margin-bottom:.4rem}
+.center{text-align:center}
+/* chalkboard */
+.board{background:var(--slate);background-image:radial-gradient(ellipse at 30% 20%,rgba(255,255,255,.07),transparent 60%),radial-gradient(ellipse at 80% 90%,rgba(255,255,255,.05),transparent 50%);color:#f1efe6;border:12px solid #6b4423;border-radius:6px;box-shadow:inset 0 0 40px rgba(0,0,0,.5),0 10px 28px rgba(0,0,0,.25);padding:1.6rem 1.3rem;position:relative}
+.board h2{color:#fff;text-align:center;font-size:clamp(1.8rem,7vw,2.6rem)}
+.board .sub{text-align:center;color:var(--gold);font-family:"Permanent Marker","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;font-size:1.05rem;margin:.3rem 0 1rem}
+.row{display:flex;align-items:baseline;gap:.5rem;padding:.55rem 0;border-bottom:1px dashed rgba(255,255,255,.22);font-family:"Permanent Marker","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;font-size:1.08rem}
+.row .dots{flex:1;border-bottom:2px dotted rgba(255,255,255,.35);transform:translateY(-4px)}
+.row .p{color:var(--gold);white-space:nowrap}
+.board .call{display:block;text-align:center;margin-top:1.1rem;color:#fff;font-family:"Permanent Marker","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;font-size:1.15rem}
+.board .call a{color:var(--gold)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
+.polaroid{background:#fff;padding:.6rem .6rem 2.2rem;box-shadow:0 8px 24px rgba(0,0,0,.18);transform:rotate(-2deg);position:relative}
+.polaroid img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+.polaroid figcaption{position:absolute;bottom:.55rem;left:0;right:0;text-align:center;font-family:"Permanent Marker","Marker Felt","Chalkboard SE","Comic Sans MS",cursive;color:#333}
+.tape:before{content:"";position:absolute;top:-12px;left:50%;width:90px;height:24px;margin-left:-45px;background:rgba(242,183,5,.75);transform:rotate(3deg)}
+.split p{margin-top:.8rem}
+.filters{display:flex;gap:.5rem;margin:1.3rem 0 .9rem;overflow-x:auto;padding:.2rem .2rem .6rem;justify-content:center;flex-wrap:wrap;scrollbar-width:none}
+.filters button{flex:none;font-family:"Anton",Impact,"Arial Black",sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:.95rem;padding:.5rem 1rem;border:3px solid var(--navy);background:#fff;color:var(--navy);cursor:pointer;border-radius:4px}
+.filters button.active{background:var(--old);border-color:var(--old);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
+.card{background:#fff;border:3px solid var(--navy);border-radius:6px;overflow:hidden;cursor:pointer;box-shadow:5px 5px 0 var(--navy);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}
+.card:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--old)}
+.card img,.card .ph{width:100%;height:190px;object-fit:cover;display:block;border-bottom:3px solid var(--navy)}
+.ph{display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:.3rem;color:#fff;font-family:"Anton",Impact,"Arial Black",sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:1.9rem;
+  background-color:var(--navy);background-image:repeating-linear-gradient(45deg,rgba(242,183,5,.12) 0 10px,transparent 10px 20px)}
+.ph.or{background-color:var(--old);background-image:repeating-linear-gradient(-45deg,rgba(255,255,255,.12) 0 10px,transparent 10px 20px)}
+.card-body{padding:.95rem 1rem 1rem;display:flex;flex-direction:column;flex:1}
+.card h3{font-size:1.08rem;display:flex;justify-content:space-between;gap:.5rem;align-items:baseline}
+.card h3 .price{color:var(--old);font-weight:900;white-space:nowrap;font-size:.98rem}
+.card p.d{color:#555;font-size:.92rem;margin-top:.25rem}
+.more{display:none;margin-top:.6rem;padding-top:.6rem;border-top:2px dashed #e2d9c6;font-size:.88rem}
+.card.open .more{display:block}.card.open .tap{display:none}
+.tap{margin-top:auto;padding-top:.5rem;font-size:.75rem;color:#999}
+.market{background:var(--navy);color:#fff;border-radius:8px;overflow:hidden;display:grid;grid-template-columns:1.1fr 1fr}
+.market img{width:100%;height:100%;object-fit:cover;min-height:280px;display:block}
+.market div{padding:2rem 1.6rem}
+.market h2{color:#fff}.market h2 .o{color:var(--gold)}
+.market ul{list-style:none;margin:1rem 0 1.3rem}
+.market li{padding:.35rem 0 .35rem 1.6rem;position:relative}
+.market li:before{content:"";position:absolute;left:0;top:.75rem;width:.75rem;height:.75rem;background:var(--old);transform:rotate(45deg)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:200px;gap:.6rem;margin-top:1.4rem}
+.gallery img{width:100%;height:100%;object-fit:cover;display:block;border:3px solid var(--navy);border-radius:4px}
+.gallery .tall{grid-row:span 2}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.4rem}
+.box{background:#fff;border:3px solid var(--navy);border-radius:6px;padding:1.3rem;box-shadow:5px 5px 0 var(--gold)}
+.box h3{font-family:"Anton",Impact,"Arial Black",sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:1px;color:var(--old);font-size:1.25rem;margin-bottom:.6rem}
+table{width:100%;border-collapse:collapse}td{padding:.3rem 0;border-bottom:1px solid #eee5d2}td:last-child{text-align:right}
+tr.today td{font-weight:900;color:var(--old)}
+#status{display:inline-block;margin-top:.8rem;font-weight:900;padding:.3rem .7rem;border-radius:4px;font-size:.88rem}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:200;background:var(--old);text-align:center;padding:.85rem 1rem calc(.85rem + env(safe-area-inset-bottom));border-top:3px solid var(--gold);box-shadow:0 -6px 18px rgba(0,0,0,.25)}
+.callbar a{color:#fff;text-decoration:none;font-weight:900;font-size:1.12rem;letter-spacing:.5px}
+footer{background:var(--navy);color:#c9d3e2;text-align:center;padding:2.2rem 1rem;font-size:.88rem;border-top:6px solid var(--old)}
+footer p+p{margin-top:.35rem}
+@media(max-width:760px){nav{display:none}.split,.market,.visit{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:150px}.filters{justify-content:flex-start;flex-wrap:nowrap}.market img{max-height:260px;min-height:220px}.board{border-width:9px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#top" aria-label="Zebo's Crab Shack">
+    <svg width="36" height="30" viewBox="0 0 48 40" aria-hidden="true"><g fill="#d9480f"><ellipse cx="24" cy="24" rx="13" ry="9"/><path d="M8 8c-4 2-4 8 0 10l4-3c-2-1-2-3 0-4zM40 8c4 2 4 8 0 10l-4-3c2-1 2-3 0-4z"/><path d="M12 15l-4-4 2-1 4 4zM36 15l4-4-2-1-4 4z"/></g><g stroke="#d9480f" stroke-width="2.4" stroke-linecap="round"><path d="M12 26l-7 4M12 30l-6 7M36 26l7 4M36 30l6 7M16 32l-3 6M32 32l3 6"/></g><circle cx="20" cy="18" r="1.6" fill="#0b2545"/><circle cx="28" cy="18" r="1.6" fill="#0b2545"/></svg>
+    <b>Zebo's <span>Crab Shack</span></b>
+  </a>
+  <nav><a href="#board">Market Price</a><a href="#menu">Menu</a><a href="#market">Fresh Market</a><a href="#visit">Visit</a></nav>
+</header>
+
+<div class="hero" id="top">
+  <div class="hero-in">
+    <span class="stamp">Gullah Geechee style</span>
+    <h1><span class="o">Garlic</span> crabs<br><span class="g">done right</span></h1>
+    <p>Jacksonville garlic crabs, blue crab boils and fried seafood baskets on W Beaver St. Call ahead, and your tray will be ready.</p>
+    <div class="btns"><a class="btn or" href="tel:9045185935">Call for Today's Price</a><a class="btn gh" href="#menu">See the Menu</a></div>
+  </div>
+</div>
+<div class="ticker" aria-hidden="true"><div>&nbsp;Garlic crab trays ✶ Blue crab boil ✶ Snow crab clusters ✶ Fried shrimp baskets ✶ Fish baskets ✶ Garlic eggs ✶ Hush puppies ✶&nbsp;Garlic crab trays ✶ Blue crab boil ✶ Snow crab clusters ✶ Fried shrimp baskets ✶ Fish baskets ✶ Garlic eggs ✶ Hush puppies ✶</div></div>
+
+<section id="board">
+  <div class="board">
+    <h2>Today's Market Price</h2>
+    <p class="sub">Crab prices move with the catch. Call for today's price.</p>
+    <div class="row"><span>Garlic Crab Tray</span><span class="dots"></span><span class="p">$25 – $45</span></div>
+    <div class="row"><span>Blue Crab Boil</span><span class="dots"></span><span class="p">$18 – $32</span></div>
+    <div class="row"><span>Snow Crab Clusters</span><span class="dots"></span><span class="p">$16 – $22</span></div>
+    <div class="row"><span>Seafood Combo</span><span class="dots"></span><span class="p">$26.99 – $34.99</span></div>
+    <span class="call">Today's price? Call <a href="tel:9045185935">(904) 518-5935</a></span>
+  </div>
+</section>
+
+<section id="about">
+  <div class="split">
+    <figure class="polaroid tape"><img src="images/about.jpg" alt="Zebo's Crab Shack & Fish Market storefront" loading="lazy"><figcaption>Zebo's on W Beaver St</figcaption></figure>
+    <div>
+      <p class="kick">The shack</p>
+      <h2>Jacksonville's <span class="o">garlic crab</span> tradition</h2>
+      <p>Garlic crabs are a Jacksonville original with roots in Gullah Geechee cooking, and Zebo's serves them by the tray: crabs coated in seasoning and garlic, with sausage, corn, potatoes and garlic eggs on the side.</p>
+      <p>Not in a crab mood? Fried shrimp baskets and fish baskets come out hot too.</p>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="center"><p class="kick">The menu</p><h2>Pick your <span class="o">tray</span></h2></div>
+  <div class="filters">
+    <button class="active" data-f="all">All</button>
+    <button data-f="crab">Crabs</button>
+    <button data-f="shrimp">Shrimp</button>
+    <button data-f="fish">Fish &amp; Platters</button>
+    <button data-f="sides">Sides</button>
+  </div>
+  <div class="grid" id="grid">
+    <article class="card" data-c="crab"><img src="images/garlic-crab.jpg" alt="Garlic crabs at Zebo's" loading="lazy"><div class="card-body">
+      <h3>Garlic Crab Tray <span class="price">$25 – $45</span></h3><p class="d">The house specialty, coated in garlic and seasoning.</p>
+      <div class="more">Market price. Size and price depend on the day's crabs, so call for today's price.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="crab"><img src="images/blue-crab.jpg" alt="Steamed blue crabs" loading="lazy"><div class="card-body">
+      <h3>Blue Crab Boil <span class="price">$18 – $32</span></h3><p class="d">Bright red blue crabs, boiled and seasoned.</p>
+      <div class="more">Add sides like sausage, corn, potatoes or garlic eggs.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="crab"><div class="ph" role="img" aria-label="Decorative block">Snow Crab<small style="font-size:.8rem;color:var(--gold)">Clusters</small></div><div class="card-body">
+      <h3>Snow Crab Clusters <span class="price">$16 – $22</span></h3><p class="d">Long legs, sweet meat, easy cracking.</p>
+      <div class="more">Price varies with the market. Call ahead.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="crab"><img src="images/crab-shrimp.jpg" alt="Crabs and shrimp in a tray" loading="lazy" style="object-position:center 30%"><div class="card-body">
+      <h3>Seafood Combo <span class="price">$26.99 – $34.99</span></h3><p class="d">Crab and shrimp in one tray, for the indecisive.</p>
+      <div class="more">Call for today's combo options.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="shrimp"><div class="ph or" role="img" aria-label="Decorative block">Fried Shrimp<small style="font-size:.8rem">Mayport</small></div><div class="card-body">
+      <h3>Fried Mayport Shrimp Basket <span class="price">$13.99 – $16.99</span></h3><p class="d">Local Mayport shrimp, fried golden.</p>
+      <div class="more">Basket sizes vary. Ask about hush puppies on the side.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="shrimp"><div class="ph" role="img" aria-label="Decorative block">Garlic Butter<small style="font-size:.8rem;color:var(--gold)">Shrimp</small></div><div class="card-body">
+      <h3>Garlic Butter Shrimp <span class="price">$12.99+</span></h3><p class="d">Shrimp tossed in garlic butter.</p>
+      <div class="more">½ lb <b>$12.99</b> • 1 lb <b>$22.99</b></div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="fish"><img src="images/fried-fish.jpg" alt="Trays of fried fish at Zebo's" loading="lazy"><div class="card-body">
+      <h3>Fish Basket <span class="price">$11.99 – $14.99</span></h3><p class="d">Fried fish, hot out of the fryer.</p>
+      <div class="more">Call to ask which fish is on today.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="fish"><div class="ph or" role="img" aria-label="Decorative block">Crab Cake<small style="font-size:.8rem">Platter</small></div><div class="card-body">
+      <h3>Crab Cake Platter <span class="price">$14.99</span></h3><p class="d">Crab cakes plated with sides.</p>
+      <div class="more">Call ahead for pickup.</div><p class="tap">Tap for details</p></div></article>
+    <article class="card" data-c="sides"><div class="ph" role="img" aria-label="Decorative block">Sides</div><div class="card-body">
+      <h3>Boil Sides <span class="price">Ask</span></h3><p class="d">Sausage, corn, potatoes, garlic eggs, hush puppies.</p>
+      <div class="more">Add them to any tray. Call for prices.</div><p class="tap">Tap for details</p></div></article>
+  </div>
+</section>
+
+<section id="market">
+  <div class="market">
+    <img src="images/market-case.jpg" alt="Seafood case inside Zebo's" loading="lazy">
+    <div>
+      <p class="kick" style="color:var(--gold)">Fresh market</p>
+      <h2>Fresh &amp; <span class="o">cooked</span> seafood</h2>
+      <ul>
+        <li>Walk up and order at the window</li>
+        <li>Seafood case stocked inside</li>
+        <li>Call ahead and skip the wait</li>
+      </ul>
+      <a class="btn or" href="tel:9045185935">Call Ahead</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="center"><p class="kick">Real photos</p><h2>From the <span class="o">shack</span></h2></div>
+  <div class="gallery">
+    <img class="tall" src="images/crab-tray.jpg" alt="Tray of seasoned crabs" loading="lazy">
+    <img src="images/blue-crab.jpg" alt="Blue crabs" loading="lazy">
+    <img src="images/fried-fish.jpg" alt="Fried fish trays" loading="lazy">
+    <img src="images/market-case.jpg" alt="Seafood case" loading="lazy">
+    <img src="images/garlic-crab.jpg" alt="Garlic crabs" loading="lazy">
+  </div>
+</section>
+
+<section id="visit">
+  <div class="center"><p class="kick">Come get it</p><h2>Plan your <span class="o">visit</span></h2></div>
+  <div class="visit">
+    <div class="box"><h3>Hours</h3>
+      <table id="hours">
+        <tr data-d="1"><td>Monday</td><td>12 – 6 PM</td></tr>
+        <tr data-d="2"><td>Tuesday</td><td>12 – 6 PM</td></tr>
+        <tr data-d="3"><td>Wednesday</td><td>12 – 6 PM</td></tr>
+        <tr data-d="4"><td>Thursday</td><td>12 – 6 PM</td></tr>
+        <tr data-d="5"><td>Friday</td><td>12 – 8 PM</td></tr>
+        <tr data-d="6"><td>Saturday</td><td>12 – 8 PM</td></tr>
+        <tr data-d="0"><td>Sunday</td><td>12 – 6 PM</td></tr>
+      </table>
+      <span id="status"></span>
+    </div>
+    <div class="box"><h3>Location</h3>
+      <p style="font-size:1.05rem"><b>1909 W Beaver St</b><br>Jacksonville, FL 32209</p>
+      <a class="btn nv" style="margin-top:1rem" href="https://www.google.com/maps/search/?api=1&amp;query=Zebo%27s+Crab+Shack+1909+W+Beaver+St+Jacksonville+FL+32209" target="_blank" rel="noopener">Get Directions</a>
+      <p style="margin-top:1.2rem;font-size:.9rem;color:#555">Walk-up window • Takeout • Call-ahead orders</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><b>Zebo's Crab Shack</b> • 1909 W Beaver St, Jacksonville, FL 32209 • (904) 518-5935</p>
+  <p>Mock site for demonstration • Not the official website</p>
+  <p style="font-size:.78rem;opacity:.75">Photos: real photos of Zebo's Crab Shack from public listings (Yelp, Tripadvisor). See SOURCES.md.</p>
+</footer>
+
+<div class="callbar"><a href="tel:9045185935">📞 Call Now • (904) 518-5935</a></div>
+
+<script>
+document.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('open')));
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('active'));b.classList.add('active');
+  const f=b.dataset.f;document.querySelectorAll('#grid .card').forEach(c=>c.style.display=(f==='all'||c.dataset.c===f)?'':'none');}));
+(function(){ // Open-now in Jacksonville time
+  const H={0:[12,18],1:[12,18],2:[12,18],3:[12,18],4:[12,18],5:[12,20],6:[12,20]};
+  const now=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));const d=now.getDay(),h=now.getHours()+now.getMinutes()/60;
+  const row=document.querySelector('#hours tr[data-d="'+d+'"]');if(row)row.classList.add('today');
+  const s=document.getElementById('status'),r=H[d];
+  if(r&&h>=r[0]&&h<r[1]){s.textContent='● Open now';s.style.background='#e2f3e6';s.style.color='#1d6b34';}
+  else{s.textContent='● Closed now';s.style.background='#fde4d9';s.style.color='#b33a08';}
+})();
+</script>
+</body>
+</html>
